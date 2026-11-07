@@ -9,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/tailwind.css">
   <script src="js/app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <header class="site-header" id="top">
+  <a class="skip-link sr-only focus:not-sr-only" href="#contenido">Saltar al contenido</a>
+  <header class="site-header w-full" id="top">
     <a class="brand" href="#inicio" aria-label="FORJA BRAVA, inicio"><span class="brand-mark">F<span>B</span></span><span class="brand-name">FORJA <b>BRAVA</b><small>COCINA AL FUEGO</small></span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
     <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
@@ -32,7 +32,7 @@
         <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> COMIDA RÁPIDA · HECHA CON CARÁCTER</p>
         <h1 id="hero-title">El sabor que<br>se hace <em>a fuego.</em></h1>
         <p class="hero-copy">El antojo colombiano, llevado al fuego. Ingredientes honestos, fuego vivo y sabor que deja huella.</p>
-        <div class="hero-actions"><a class="button button-fire" href="#menu">EXPLORAR MENÚ <span>↗</span></a><a class="text-link" href="#esencia">CONOCE NUESTRA ESENCIA <span>↓</span></a></div>
+      <div class="hero-actions flex flex-col sm:flex-row"><a class="button button-fire bg-fire hover:bg-fire/90" href="#menu">EXPLORAR MENÚ <span>↗</span></a><a class="text-link" href="#esencia">CONOCE NUESTRA ESENCIA <span>↓</span></a></div>
       </div>
       <div class="hero-stamp"><span>HECHO</span><b>A FUEGO</b><span>DESDE EL PRIMER BOCADO</span><i>✳</i></div>
       <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
