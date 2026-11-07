@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171613">
+  <meta name="description" content="FORJA BRAVA — comida rápida colombiana con carácter. Hamburguesas, perros, salchipapas y sabor hecho a fuego.">
+  <title>FORJA BRAVA — El sabor que se hace a fuego</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="FORJA BRAVA, inicio"><span class="brand-mark">F<span>B</span></span><span class="brand-name">FORJA <b>BRAVA</b><small>COCINA AL FUEGO</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#esencia">Nuestra esencia</a><a href="#menu">Menú</a><a href="#contacto">Contacto</a>
+      <button class="cart-trigger" type="button" aria-label="Abrir pedido">PEDIDO <span class="cart-count">0</span></button>
+      <a class="nav-order" href="#menu">HACER PEDIDO <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Hamburguesa artesanal dorada sobre una tabla de madera, junto a brasas encendidas"></div>
+      <div class="hero-shade"></div><div class="hero-grain"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> COMIDA RÁPIDA · HECHA CON CARÁCTER</p>
+        <h1 id="hero-title">El sabor que<br>se hace <em>a fuego.</em></h1>
+        <p class="hero-copy">El antojo colombiano, llevado al fuego. Ingredientes honestos, fuego vivo y sabor que deja huella.</p>
+        <div class="hero-actions"><a class="button button-fire" href="#menu">EXPLORAR MENÚ <span>↗</span></a><a class="text-link" href="#esencia">CONOCE NUESTRA ESENCIA <span>↓</span></a></div>
+      </div>
+      <div class="hero-stamp"><span>HECHO</span><b>A FUEGO</b><span>DESDE EL PRIMER BOCADO</span><i>✳</i></div>
+      <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
+      <div class="hero-caption">FUEGO LENTO · SABOR BRAVO</div>
+    </section>
+
+    <div class="ticker" aria-label="Preparado al momento, sabor sin atajos"><div class="ticker-track"><span>PREPARADO AL MOMENTO</span><i>✳</i><span>SABOR SIN ATAJOS</span><i>✳</i><span>HECHO A FUEGO</span><i>✳</i><span>PREPARADO AL MOMENTO</span><i>✳</i><span>SABOR SIN ATAJOS</span><i>✳</i><span>HECHO A FUEGO</span><i>✳</i></div></div>
+
+    <section class="essence section-light" id="esencia">
+      <div class="section-kicker reveal"><span>01 / NUESTRA ESENCIA</span><span>BOGOTÁ, COLOMBIA</span></div>
+      <div class="essence-grid">
+        <div class="essence-title reveal"><span class="mini-label">MÁS FUEGO. MÁS SABOR.</span><h2>NO ES SOLO<br>COMIDA RÁPIDA.<br><em>ES CARÁCTER.</em></h2><div class="hand-drawn">✳</div></div>
+        <div class="essence-copy reveal"><p class="lead">Creemos que un buen antojo merece hacerse sin afán.</p><p>Por eso encendemos el fuego, buscamos ingredientes que valen la pena y le ponemos acento colombiano a cada receta. Sin poses. Sin atajos. Solo comida hecha con ganas.</p><a class="under-link" href="#experiencia">ASÍ LO HACEMOS <span>↗</span></a><div class="essence-note"><span>01</span><p>Fuego vivo.<br><em>Manos a la obra.</em></p></div></div>
+        <figure class="essence-photo reveal"><img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1000&q=85" alt="Hamburguesa a la parrilla con pan tostado y queso fundido" loading="lazy"><figcaption><span>01 — EL FUEGO HACE LO SUYO</span><span>↗</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="menu-top section-kicker reveal"><span>02 / LA CARTA</span><span>HECHA PARA EL ANTOJO</span></div>
+      <div class="menu-heading reveal"><div><span class="mini-label">ELIGE TU BATALLA</span><h2>DEL FUEGO<br><em>A TU MESA.</em></h2></div><p>Recetas con acento colombiano.<br>Todo preparado al momento.</p></div>
+      <div class="menu-toolbar"><div class="filters" role="group" aria-label="Filtrar menú por categoría"><button class="filter-btn active" data-filter="todos" aria-pressed="true">TODO <span>13</span></button><button class="filter-btn" data-filter="hamburguesas" aria-pressed="false">HAMBURGUESAS</button><button class="filter-btn" data-filter="perros" aria-pressed="false">PERROS</button><button class="filter-btn" data-filter="salchipapas" aria-pressed="false">SALCHIPAPAS</button><button class="filter-btn" data-filter="colombianos" aria-pressed="false">ANTOJOS</button></div><span class="menu-count">13 ANTOJOS · 04 CATEGORÍAS</span></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="menu-foot"><span>✳</span><p>¿No sabes por dónde empezar?<br><em>La Forjada siempre cae bien.</em></p><a href="#destacado" class="under-link">DESCUBRE LA FAVORITA ↗</a></div>
+    </section>
+
+    <section class="feature" id="destacado">
+      <div class="feature-image" role="img" aria-label="Hamburguesa especial con ingredientes frescos"></div><div class="feature-overlay"></div>
+      <div class="feature-content reveal"><span class="mini-label">LA FAVORITA DE LA CASA · 01</span><h2>EL PROTAGONISTA<br><em>DE LA CASA.</em></h2><p>La Forjada junta todo lo que nos mueve: carne a la parrilla, queso fundido, tocineta crocante y nuestra salsa de la casa. Un clásico con fuego propio.</p><div class="feature-ingredients"><span>CARNE A LA PARRILLA</span><i>✳</i><span>QUESO FUNDIDO</span><i>✳</i><span>SALSA BRAVA</span></div><div class="feature-bottom"><span class="feature-price">$28.900 <small>COP</small></span><button class="button button-fire" data-add="forjada">SUMAR AL PEDIDO <span>↗</span></button></div></div>
+      <div class="feature-number">01<span>/</span>01</div>
+    </section>
+
+    <section class="experience section-light" id="experiencia"><div class="section-kicker reveal"><span>03 / LO QUE NOS MUEVE</span><span>DE LA COCINA A LA MESA</span></div><div class="experience-heading reveal"><h2>EL SABOR ESTÁ<br>EN <em>LOS DETALLES.</em></h2><p>No hay truco: buen producto, manos expertas<br>y el tiempo justo sobre las brasas.</p></div><div class="experience-grid">
+      <figure class="experience-card experience-card-tall reveal"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=85" alt="Carne y vegetales cocinándose sobre la parrilla" loading="lazy"><figcaption><span>01</span><b>FUEGO VIVO</b><small>El sabor empieza aquí.</small></figcaption></figure>
+      <figure class="experience-card reveal"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Ingredientes frescos y coloridos preparados en la cocina" loading="lazy"><figcaption><span>02</span><b>INGREDIENTES REALES</b><small>Frescos. Sin vueltas.</small></figcaption></figure>
+      <figure class="experience-card reveal"><img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=85" alt="Mesa cálida y ambiente de restaurante" loading="lazy"><figcaption><span>03</span><b>BUENAS COMPAÑÍAS</b><small>El resto lo pones tú.</small></figcaption></figure>
+    </div></section>
+
+    <section class="contact-section" id="contacto"><div class="contact-text reveal"><div class="section-kicker"><span>04 / ENCUÉNTRANOS</span><span>SIEMPRE HAY UN ANTOJO</span></div><h2>EL FUEGO<br>ESTÁ <em>ENCENDIDO.</em></h2><p>Ven por el tuyo o escríbenos para pedir. Estamos preparando todo con ganas.</p><a class="button button-fire" href="#menu">ARMAR MI PEDIDO <span>↗</span></a></div><div class="contact-info reveal"><div class="contact-row"><span>VISÍTANOS</span><p data-contact="location"></p></div><div class="contact-row"><span>HORARIO</span><p data-contact="hours"></p></div><div class="contact-row"><span>ESCRÍBENOS</span><p data-contact="phone"></p></div><form class="contact-form" id="contact-form" novalidate><label for="contact-name">¿TE AYUDAMOS CON ALGO?</label><div class="form-row"><input id="contact-name" name="name" type="text" placeholder="Tu nombre" required minlength="2"><input id="contact-email" name="email" type="email" placeholder="Tu correo" required><button type="submit" aria-label="Enviar consulta">↗</button></div><small class="form-feedback" aria-live="polite">Deja tus datos y te contactamos. Formulario de demostración.</small></form><div class="social-links"><a href="#contacto" aria-label="Instagram">IG ↗</a><a href="#contacto" aria-label="Facebook">FB ↗</a><a class="whatsapp-link" href="#" target="_blank" rel="noopener">WHATSAPP ↗</a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><a class="brand brand-footer" href="#inicio"><span class="brand-mark">F<span>B</span></span><span class="brand-name">FORJA <b>BRAVA</b><small>COCINA AL FUEGO</small></span></a><p>El sabor que se<br>hace <em>a fuego.</em></p><a class="footer-top" href="#top">VOLVER ARRIBA ↑</a></div><div class="footer-bottom"><span>© 2026 FORJA BRAVA · PROYECTO DEMOSTRATIVO</span><span>HECHO CON CARÁCTER <i>✳</i></span><span>BOGOTÁ, COLOMBIA</span></div></footer>
+
+  <button class="floating-whatsapp" aria-label="Escribir por WhatsApp" type="button">✳</button>
+  <aside class="cart-drawer" aria-hidden="true" aria-labelledby="cart-title"><div class="cart-backdrop"></div><div class="cart-panel"><div class="cart-head"><div><span class="mini-label">TU ANTOJO, EN CAMINO</span><h2 id="cart-title">EL PEDIDO.</h2></div><button class="cart-close" aria-label="Cerrar pedido">×</button></div><div class="cart-items"></div><div class="cart-empty"><span>✳</span><p>Tu pedido empieza<br><em>con un buen antojo.</em></p><button class="under-link cart-browse">MIRAR EL MENÚ ↗</button></div><div class="cart-summary"><div><span>SUBTOTAL</span><strong>$0</strong></div><p>Valores demostrativos · pago no habilitado</p><button class="button button-fire cart-checkout">SEGUIR POR WHATSAPP <span>↗</span></button></div></div></aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
