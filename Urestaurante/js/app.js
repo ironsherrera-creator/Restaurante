@@ -7,19 +7,19 @@ const CONFIG = {
 };
 
 const PRODUCTS = [
-  {id:'forjada',name:'La Forjada',category:'hamburguesas',desc:'Carne a la parrilla, queso, tocineta y salsa de la casa.',price:28900,image:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=82',tag:'FAVORITA'},
-  {id:'brava',name:'La Brava',category:'hamburguesas',desc:'Doble queso, cebolla caramelizada y mayo picante.',price:31900,image:'https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=800&q=82',tag:'PICANTE'},
-  {id:'doble-carbon',name:'Doble Carbón',category:'hamburguesas',desc:'Dos carnes al carbón, cheddar y pepinillos.',price:35900,image:'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=82'},
-  {id:'criolla',name:'Criolla Especial',category:'hamburguesas',desc:'Carne, hogao casero, queso y papa ripio.',price:29900,image:'https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=82'},
-  {id:'perro-tradicional',name:'Perro Tradicional',category:'perros',desc:'Salchicha, ripio, salsas de la casa y queso.',price:16900,image:'https://images.unsplash.com/photo-1612392062126-56cc9878b1d4?auto=format&fit=crop&w=800&q=82'},
-  {id:'perro-especial',name:'Perro Especial',category:'perros',desc:'Salchicha premium, tocineta, queso y salsa brava.',price:21900,image:'https://images.unsplash.com/photo-1557872943-16a5ac26437e?auto=format&fit=crop&w=800&q=82'},
-  {id:'perro-colombiano',name:'Perro Colombiano',category:'perros',desc:'Piña, queso, ripio y el toque dulce de la casa.',price:23900,image:'https://images.unsplash.com/photo-1599599810694-b5ac4dd9a3a3?auto=format&fit=crop&w=800&q=82'},
-  {id:'salchipapa-clasica',name:'Salchipapa Clásica',category:'salchipapas',desc:'Papas crocantes, salchicha y salsas al gusto.',price:19900,image:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=82'},
-  {id:'salchipapa-especial',name:'Salchipapa Especial',category:'salchipapas',desc:'Papas, salchicha, pollo, queso y salsas.',price:27900,image:'https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=800&q=82'},
-  {id:'salchipapa-mixta',name:'Salchipapa Mixta',category:'salchipapas',desc:'Pollo, carne, salchicha y papas para compartir.',price:32900,image:'https://images.unsplash.com/photo-1518013431117-eb1465fa5752?auto=format&fit=crop&w=800&q=82'},
-  {id:'mazorcada',name:'Mazorcada',category:'colombianos',desc:'Maíz dulce, pollo, tocineta, queso y salsas.',price:26900,image:'https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=82',tag:'COLOMBIANA'},
-  {id:'choripapa',name:'Choripapa',category:'colombianos',desc:'Chorizo a la brasa, papas crocantes y chimichurri.',price:24900,image:'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=82'},
-  {id:'adiciones',name:'Adiciones & Acompañamientos',category:'colombianos',desc:'Papas, queso extra, tocineta y salsas de la casa.',price:8900,image:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=82',tag:'PARA ACOMPAÑAR'}
+  {id:'forjada',name:'La Forjada',category:'hamburguesas',desc:'Carne a la parrilla, queso, tocineta y salsa de la casa.',price:28900,image:'assets/images/producto-forjada.png',tag:'FAVORITA'},
+  {id:'brava',name:'La Brava',category:'hamburguesas',desc:'Doble queso, cebolla caramelizada y mayo picante.',price:31900,image:'assets/images/producto-brava.png',tag:'PICANTE'},
+  {id:'doble-carbon',name:'Doble Carbón',category:'hamburguesas',desc:'Dos carnes al carbón, cheddar y pepinillos.',price:35900,image:'assets/images/producto-doble-carbon.png'},
+  {id:'criolla',name:'Criolla Especial',category:'hamburguesas',desc:'Carne, hogao casero, queso y papa ripio.',price:29900,image:'assets/images/producto-criolla.png'},
+  {id:'perro-tradicional',name:'Perro Tradicional',category:'perros',desc:'Salchicha, ripio, salsas de la casa y queso.',price:16900,image:'assets/images/producto-perro-tradicional.png'},
+  {id:'perro-especial',name:'Perro Especial',category:'perros',desc:'Salchicha premium, tocineta, queso y salsa brava.',price:21900,image:'assets/images/producto-perro-especial.png'},
+  {id:'perro-colombiano',name:'Perro Colombiano',category:'perros',desc:'Piña, queso, ripio y el toque dulce de la casa.',price:23900,image:'assets/images/producto-perro-colombiano.png'},
+  {id:'salchipapa-clasica',name:'Salchipapa Clásica',category:'salchipapas',desc:'Papas crocantes, salchicha y salsas al gusto.',price:19900,image:'assets/images/producto-salchipapa-clasica.png'},
+  {id:'salchipapa-especial',name:'Salchipapa Especial',category:'salchipapas',desc:'Papas, salchicha, pollo, queso y salsas.',price:27900,image:'assets/images/producto-salchipapa-especial.png'},
+  {id:'salchipapa-mixta',name:'Salchipapa Mixta',category:'salchipapas',desc:'Pollo, carne, salchicha y papas para compartir.',price:32900,image:'assets/images/producto-salchipapa-mixta.png'},
+  {id:'mazorcada',name:'Mazorcada',category:'colombianos',desc:'Maíz dulce, pollo, tocineta, queso y salsas.',price:26900,image:'assets/images/producto-mazorcada.png',tag:'COLOMBIANA'},
+  {id:'choripapa',name:'Choripapa',category:'colombianos',desc:'Chorizo a la brasa, papas crocantes y chimichurri.',price:24900,image:'assets/images/producto-choripapa.png'},
+  {id:'adiciones',name:'Adiciones & Acompañamientos',category:'colombianos',desc:'Papas, queso extra, tocineta y salsas de la casa.',price:8900,image:'assets/images/producto-adiciones.png',tag:'PARA ACOMPAÑAR'}
 ];
 
 const money = value => new Intl.NumberFormat('es-CO',{style:'currency',currency:CONFIG.currency,maximumFractionDigits:0}).format(value);
@@ -29,7 +29,7 @@ let toastTimer;
 
 function renderProducts(filter='todos') {
   const shown = PRODUCTS.filter(item => filter === 'todos' || item.category === filter);
-  grid.innerHTML = shown.map((item,index)=>`<article class="product-card" style="animation-delay:${index*45}ms"><div class="product-image-wrap"><img src="${item.image}" alt="${item.name}, ${item.desc}" loading="lazy">${item.tag?`<span class="product-tag">${item.tag}</span>`:''}</div><div class="product-info"><div class="product-name-row"><h3 class="product-name">${item.name}</h3><span class="product-price">${money(item.price)}</span></div><p class="product-desc">${item.desc}</p><button class="product-add" data-add="${item.id}">SUMAR AL PEDIDO <span>+</span></button></div></article>`).join('');
+  grid.innerHTML = shown.map((item,index)=>`<article class="product-card" style="animation-delay:${index*45}ms"><div class="product-image-wrap"><img src="${item.image}" alt="${item.name}, ${item.desc}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/hero-forja-brava.png'">${item.tag?`<span class="product-tag">${item.tag}</span>`:''}</div><div class="product-info"><div class="product-name-row"><h3 class="product-name">${item.name}</h3><span class="product-price">${money(item.price)}</span></div><p class="product-desc">${item.desc}</p><button class="product-add" data-add="${item.id}">SUMAR AL PEDIDO <span>+</span></button></div></article>`).join('');
 }
 function showToast(message){const toast=document.querySelector('.toast');toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)}
 function addItem(id){const product=PRODUCTS.find(item=>item.id===id);if(!product)return;cart.set(id,(cart.get(id)||0)+1);updateCart();showToast(`${product.name} se sumó a tu pedido`)}
