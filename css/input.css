@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "./styles.css";
+
+@theme {
+  --color-carbon: #171613;
+  --color-coffee: #35251d;
+  --color-wood: #68452f;
+  --color-cream: #f1e8d8;
+  --color-sand: #d6c2a3;
+  --color-fire: #c66a32;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", Arial, sans-serif;
+}
+
+@source "../index.html";
+@source "../js/**/*.js";
