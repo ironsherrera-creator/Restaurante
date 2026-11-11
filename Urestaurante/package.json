@@ -7,7 +7,7 @@
     "build:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --minify",
     "watch:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --watch",
     "build": "npm run build:css",
-    "start": "node -e \"require('http').createServer((req,res)=>{const fs=require('fs'),path=require('path'),file=path.join(process.cwd(),decodeURIComponent(new URL(req.url,'http://localhost').pathname));fs.readFile(file,(err,data)=>{if(err){res.writeHead(404);res.end('Not found');return}res.writeHead(200,{'Content-Type':file.endsWith('.css')?'text/css':file.endsWith('.js')?'text/javascript':file.endsWith('.png')?'image/png':'text/html'});res.end(data)})}).listen(4173,()=>console.log('FORJA BRAVA en http://localhost:4173'))\""
+    "start": "node -e \"require('http').createServer((req,res)=>{const fs=require('fs'),path=require('path'),url=new URL(req.url,'http://localhost'),requestPath=url.pathname==='/'?'/index.html':url.pathname,file=path.join(process.cwd(),decodeURIComponent(requestPath));fs.readFile(file,(err,data)=>{if(err){res.writeHead(404);res.end('Not found');return}res.writeHead(200,{'Content-Type':file.endsWith('.css')?'text/css':file.endsWith('.js')?'text/javascript':file.endsWith('.png')?'image/png':'text/html'});res.end(data)})}).listen(4173,()=>console.log('http://localhost:4173'))\""
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
